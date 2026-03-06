@@ -1,0 +1,18 @@
+{
+  "pagi": [
+    {"id": 1, "title": "Ayat Kursi", "arabic": "اللّٰهُ لَآ اِلٰهَ اِلَّا هُوَۚ اَلْـحَيُّ الْقَيُّوْمُ ەۚ لَا تَأْخُذُهٗ سِنَةٌ وَّلَا نَوْمٌۗ لَهٗ مَا فِى السَّمٰوٰتِ وَمَا فِى الْاَرْضِۗ", "latin": "Allahu laa ilaaha illaa Huwal Hayyul Qayyuum. Laa ta'khudzuhuu sinatuw walaa naum. Lahuu maa fis samaawaati wa maa fil ardh.", "translation": "Allah, tidak ada Tuhan selain Dia Yang Maha Hidup lagi terus menerus mengurus (makhluk-Nya).", "count": 1},
+    {"id": 2, "title": "Sayyidul Istighfar", "arabic": "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ خَلَقْتَنِي وَأَنَا عَبْدُكَ وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ", "latin": "Allaahumma anta rabbii laa ilaaha illaa anta, khalaqtanii wa anaa 'abduka, wa anaa 'ala 'ahdika wa wa'dika mastatha'tu", "translation": "Ya Allah, Engkau Tuhanku, tidak ada tuhan yang berhak disembah kecuali Engkau. Engkau telah menciptakanku dan aku hamba-Mu.", "count": 1},
+    {"id": 3, "title": "Subhanallah wa bihamdihi", "arabic": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ", "latin": "Subhanallahi wa bihamdihi", "translation": "Maha Suci Allah dan segala puji bagi-Nya.", "count": 100},
+    {"id": 4, "title": "Doa Perlindungan", "arabic": "بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ", "latin": "Bismillaahilladzi laa yadhurru ma'asmihi syai-un fil ardhi wa laa fis samaa'i wa huwas samii'ul 'aliim", "translation": "Dengan menyebut nama Allah yang tidak membahayakan bersama nama-Nya sesuatu pun di bumi dan di langit.", "count": 3},
+    {"id": 5, "title": "Subhanallah 33x", "arabic": "سُبْحَانَ اللَّهِ", "latin": "Subhanallah", "translation": "Maha Suci Allah", "count": 33},
+    {"id": 6, "title": "Alhamdulillah 33x", "arabic": "اَلْحَمْدُ لِلّٰهِ", "latin": "Alhamdulillah", "translation": "Segala Puji Bagi Allah", "count": 33},
+    {"id": 7, "title": "Allahu Akbar 33x", "arabic": "اللَّهُ أَكْبَرُ", "latin": "Allahu Akbar", "translation": "Allah Maha Besar", "count": 33}
+  ],
+  "sore": [
+    {"id": 8, "title": "Ayat Kursi", "arabic": "اللّٰهُ لَآ اِلٰهَ اِلَّا هُوَۚ اَلْـحَيُّ الْقَيُّوْمُ ەۚ لَا تَأْخُذُهٗ سِنَةٌ وَّلَا نَوْمٌۗ لَهٗ مَا فِى السَّمٰوٰتِ وَمَا فِى الْاَرْضِۗ", "latin": "Allahu laa ilaaha illaa Huwal Hayyul Qayyuum. Laa ta'khudzuhuu sinatuw walaa naum. Lahuu maa fis samaawaati wa maa fil ardh.", "translation": "Allah, tidak ada Tuhan selain Dia Yang Maha Hidup lagi terus menerus mengurus (makhluk-Nya).", "count": 1},
+    {"id": 9, "title": "Doa Petang Hari", "arabic": "أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ وَالْحَمْدُ لِلَّهِ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ", "latin": "Amsainaa wa amsal mulku lillaah, walhamdu lillaah, laa ilaaha illallaahu wahdahu laa syariika lah", "translation": "Kami telah memasuki waktu sore dan kerajaan hanya milik Allah. Segala puji bagi Allah.", "count": 1},
+    {"id": 10, "title": "Istighfar", "arabic": "أَسْتَغْفِرُ اللَّهَ", "latin": "Astaghfirullah", "translation": "Aku memohon ampun kepada Allah.", "count": 100},
+    {"id": 11, "title": "Sholawat Nabi", "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ", "latin": "Allahumma shalli 'ala Muhammad wa 'ala aali Muhammad", "translation": "Ya Allah, limpahkanlah shalawat kepada Nabi Muhammad dan keluarganya.", "count": 10},
+    {"id": 12, "title": "Tasbih", "arabic": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ سُبْحَانَ اللَّهِ الْعَظِيمِ", "latin": "Subhanallahi wa bihamdihi, Subhanallahil 'Azhiim", "translation": "Maha Suci Allah dan segala puji bagi-Nya, Maha Suci Allah Yang Maha Agung.", "count": 100}
+  ]
+}
