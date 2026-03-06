@@ -92,7 +92,7 @@ export default function HomePage() {
       <section className="hero">
         <div className="container hero-content">
           <div className="hero-bismillah">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</div>
-          <h1>Selamat Datang di <span className="green-accent">Nur</span><span className="gold-accent">Ilmu</span></h1>
+          <h1>Selamat Datang di <span className="green-accent">MaR</span><span className="gold-accent">Ilmu</span></h1>
           <p className="hero-subtitle">Portal Islami digital lengkap — 17 fitur untuk ibadah sehari-hari</p>
           {hijriDate && <div className="hero-badge">📅 {hijriDate}</div>}
           <p className="hero-ayat">{quote.arabic}</p>
