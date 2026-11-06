@@ -1,17 +1,422 @@
 [
-  {"id": 1, "question": "Berapa jumlah Nabi dan Rasul yang disebutkan dalam Al-Quran?", "options": ["20", "25", "30", "35"], "answer": 1, "explanation": "Ada 25 Nabi dan Rasul yang disebutkan dalam Al-Quran."},
-  {"id": 2, "question": "Siapakah Nabi yang mendapat julukan Ulul Azmi pertama?", "options": ["Nabi Ibrahim", "Nabi Nuh", "Nabi Musa", "Nabi Muhammad"], "answer": 1, "explanation": "Nabi Nuh AS adalah Ulul Azmi pertama."},
-  {"id": 3, "question": "Berapa jumlah surah dalam Al-Quran?", "options": ["110", "112", "114", "116"], "answer": 2, "explanation": "Al-Quran memiliki 114 surah."},
-  {"id": 4, "question": "Apa surah terpanjang dalam Al-Quran?", "options": ["Al-Imran", "Al-Baqarah", "An-Nisa", "Al-Maidah"], "answer": 1, "explanation": "Al-Baqarah adalah surah terpanjang dengan 286 ayat."},
-  {"id": 5, "question": "Berapa rakaat sholat Subuh?", "options": ["2 rakaat", "3 rakaat", "4 rakaat", "1 rakaat"], "answer": 0, "explanation": "Sholat Subuh terdiri dari 2 rakaat."},
-  {"id": 6, "question": "Apa nama bulan puasa dalam kalender Hijriyah?", "options": ["Syawal", "Ramadhan", "Dzulhijjah", "Rajab"], "answer": 1, "explanation": "Bulan Ramadhan adalah bulan puasa bagi umat Islam."},
-  {"id": 7, "question": "Di kota mana Nabi Muhammad SAW lahir?", "options": ["Madinah", "Makkah", "Thaif", "Yatsrib"], "answer": 1, "explanation": "Nabi Muhammad SAW lahir di kota Makkah."},
-  {"id": 8, "question": "Apa rukun Islam yang kelima?", "options": ["Puasa", "Zakat", "Haji", "Sholat"], "answer": 2, "explanation": "Haji ke Baitullah bagi yang mampu adalah rukun Islam kelima."},
-  {"id": 9, "question": "Berapa jumlah Asmaul Husna?", "options": ["77", "88", "99", "100"], "answer": 2, "explanation": "Asmaul Husna berjumlah 99 nama."},
-  {"id": 10, "question": "Kitab suci apa yang diturunkan kepada Nabi Daud?", "options": ["Injil", "Taurat", "Zabur", "Al-Quran"], "answer": 2, "explanation": "Kitab Zabur diturunkan kepada Nabi Daud AS."},
-  {"id": 11, "question": "Apa ibadah haji yang wajib dilakukan di Arafah?", "options": ["Thawaf", "Sa'i", "Wukuf", "Melontar Jumrah"], "answer": 2, "explanation": "Wukuf di Arafah adalah rukun haji yang paling utama."},
-  {"id": 12, "question": "Nabi siapakah yang ditelan ikan paus?", "options": ["Nabi Musa", "Nabi Yunus", "Nabi Sulaiman", "Nabi Nuh"], "answer": 1, "explanation": "Nabi Yunus AS ditelan ikan paus karena meninggalkan kaumnya."},
-  {"id": 13, "question": "Berapa nisab zakat emas?", "options": ["75 gram", "80 gram", "85 gram", "90 gram"], "answer": 2, "explanation": "Nisab zakat emas adalah 85 gram emas murni."},
-  {"id": 14, "question": "Apa nama istri pertama Nabi Muhammad SAW?", "options": ["Aisyah", "Khadijah", "Hafshah", "Fatimah"], "answer": 1, "explanation": "Khadijah binti Khuwailid adalah istri pertama Nabi Muhammad SAW."},
-  {"id": 15, "question": "Kapan peristiwa Isra Miraj terjadi?", "options": ["27 Rajab", "17 Ramadhan", "1 Muharram", "10 Dzulhijjah"], "answer": 0, "explanation": "Isra Miraj terjadi pada 27 Rajab."}
+ {
+  "id": 1,
+  "question": "Berapa jumlah Nabi dan Rasul yang disebutkan dalam Al-Quran?",
+  "options": [
+   "20",
+   "25",
+   "30",
+   "35"
+  ],
+  "answer": 1,
+  "explanation": "Ada 25 Nabi dan Rasul yang disebutkan dalam Al-Quran."
+ },
+ {
+  "id": 2,
+  "question": "Siapakah Nabi yang mendapat julukan Ulul Azmi pertama?",
+  "options": [
+   "Nabi Ibrahim",
+   "Nabi Nuh",
+   "Nabi Musa",
+   "Nabi Muhammad"
+  ],
+  "answer": 1,
+  "explanation": "Nabi Nuh AS adalah Ulul Azmi pertama."
+ },
+ {
+  "id": 3,
+  "question": "Berapa jumlah surah dalam Al-Quran?",
+  "options": [
+   "110",
+   "112",
+   "114",
+   "116"
+  ],
+  "answer": 2,
+  "explanation": "Al-Quran memiliki 114 surah."
+ },
+ {
+  "id": 4,
+  "question": "Apa surah terpanjang dalam Al-Quran?",
+  "options": [
+   "Al-Imran",
+   "Al-Baqarah",
+   "An-Nisa",
+   "Al-Maidah"
+  ],
+  "answer": 1,
+  "explanation": "Al-Baqarah adalah surah terpanjang dengan 286 ayat."
+ },
+ {
+  "id": 5,
+  "question": "Berapa rakaat sholat Subuh?",
+  "options": [
+   "2 rakaat",
+   "3 rakaat",
+   "4 rakaat",
+   "1 rakaat"
+  ],
+  "answer": 0,
+  "explanation": "Sholat Subuh terdiri dari 2 rakaat."
+ },
+ {
+  "id": 6,
+  "question": "Apa nama bulan puasa dalam kalender Hijriyah?",
+  "options": [
+   "Syawal",
+   "Ramadhan",
+   "Dzulhijjah",
+   "Rajab"
+  ],
+  "answer": 1,
+  "explanation": "Bulan Ramadhan adalah bulan puasa bagi umat Islam."
+ },
+ {
+  "id": 7,
+  "question": "Di kota mana Nabi Muhammad SAW lahir?",
+  "options": [
+   "Madinah",
+   "Makkah",
+   "Thaif",
+   "Yatsrib"
+  ],
+  "answer": 1,
+  "explanation": "Nabi Muhammad SAW lahir di kota Makkah."
+ },
+ {
+  "id": 8,
+  "question": "Apa rukun Islam yang kelima?",
+  "options": [
+   "Puasa",
+   "Zakat",
+   "Haji",
+   "Sholat"
+  ],
+  "answer": 2,
+  "explanation": "Haji ke Baitullah bagi yang mampu adalah rukun Islam kelima."
+ },
+ {
+  "id": 9,
+  "question": "Berapa jumlah Asmaul Husna?",
+  "options": [
+   "77",
+   "88",
+   "99",
+   "100"
+  ],
+  "answer": 2,
+  "explanation": "Asmaul Husna berjumlah 99 nama."
+ },
+ {
+  "id": 10,
+  "question": "Kitab suci apa yang diturunkan kepada Nabi Daud?",
+  "options": [
+   "Injil",
+   "Taurat",
+   "Zabur",
+   "Al-Quran"
+  ],
+  "answer": 2,
+  "explanation": "Kitab Zabur diturunkan kepada Nabi Daud AS."
+ },
+ {
+  "id": 11,
+  "question": "Apa ibadah haji yang wajib dilakukan di Arafah?",
+  "options": [
+   "Thawaf",
+   "Sa'i",
+   "Wukuf",
+   "Melontar Jumrah"
+  ],
+  "answer": 2,
+  "explanation": "Wukuf di Arafah adalah rukun haji yang paling utama."
+ },
+ {
+  "id": 12,
+  "question": "Nabi siapakah yang ditelan ikan paus?",
+  "options": [
+   "Nabi Musa",
+   "Nabi Yunus",
+   "Nabi Sulaiman",
+   "Nabi Nuh"
+  ],
+  "answer": 1,
+  "explanation": "Nabi Yunus AS ditelan ikan paus karena meninggalkan kaumnya."
+ },
+ {
+  "id": 13,
+  "question": "Berapa nisab zakat emas?",
+  "options": [
+   "75 gram",
+   "80 gram",
+   "85 gram",
+   "90 gram"
+  ],
+  "answer": 2,
+  "explanation": "Nisab zakat emas adalah 85 gram emas murni."
+ },
+ {
+  "id": 14,
+  "question": "Apa nama istri pertama Nabi Muhammad SAW?",
+  "options": [
+   "Aisyah",
+   "Khadijah",
+   "Hafshah",
+   "Fatimah"
+  ],
+  "answer": 1,
+  "explanation": "Khadijah binti Khuwailid adalah istri pertama Nabi Muhammad SAW."
+ },
+ {
+  "id": 15,
+  "question": "Kapan peristiwa Isra Miraj terjadi?",
+  "options": [
+   "27 Rajab",
+   "17 Ramadhan",
+   "1 Muharram",
+   "10 Dzulhijjah"
+  ],
+  "answer": 0,
+  "explanation": "Isra Miraj terjadi pada 27 Rajab."
+ },
+ {
+  "id": 16,
+  "question": "Surah apa yang pertama kali diturunkan?",
+  "options": [
+   "Al-Fatihah",
+   "Al-'Alaq",
+   "Al-Muddatstsir",
+   "Al-Baqarah"
+  ],
+  "answer": 1,
+  "explanation": "Wahyu pertama adalah QS. Al-'Alaq ayat 1–5 di Gua Hira."
+ },
+ {
+  "id": 17,
+  "question": "Malaikat yang bertugas menyampaikan wahyu adalah…",
+  "options": [
+   "Mikail",
+   "Israfil",
+   "Jibril",
+   "Izrail"
+  ],
+  "answer": 2,
+  "explanation": "Malaikat Jibril AS menyampaikan wahyu kepada para nabi."
+ },
+ {
+  "id": 18,
+  "question": "Al-Quran terdiri dari berapa juz?",
+  "options": [
+   "20",
+   "25",
+   "30",
+   "40"
+  ],
+  "answer": 2,
+  "explanation": "Al-Quran dibagi menjadi 30 juz."
+ },
+ {
+  "id": 19,
+  "question": "Berapa rakaat sholat Maghrib?",
+  "options": [
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "answer": 1,
+  "explanation": "Sholat Maghrib berjumlah 3 rakaat."
+ },
+ {
+  "id": 20,
+  "question": "Kiblat pertama umat Islam adalah…",
+  "options": [
+   "Masjidil Haram",
+   "Masjid Nabawi",
+   "Masjidil Aqsa",
+   "Masjid Quba"
+  ],
+  "answer": 2,
+  "explanation": "Umat Islam pernah berkiblat ke Baitul Maqdis (Masjidil Aqsa) sebelum dipindah ke Ka'bah (QS. Al-Baqarah: 144)."
+ },
+ {
+  "id": 21,
+  "question": "Nabi yang meninggikan fondasi Ka'bah bersama putranya adalah…",
+  "options": [
+   "Nabi Nuh",
+   "Nabi Ibrahim",
+   "Nabi Musa",
+   "Nabi Daud"
+  ],
+  "answer": 1,
+  "explanation": "Nabi Ibrahim dan Nabi Ismail meninggikan fondasi Ka'bah (QS. Al-Baqarah: 127)."
+ },
+ {
+  "id": 22,
+  "question": "Surah yang dijuluki \"Ummul Kitab\" adalah…",
+  "options": [
+   "Al-Ikhlas",
+   "Yasin",
+   "Al-Fatihah",
+   "Al-Baqarah"
+  ],
+  "answer": 2,
+  "explanation": "Al-Fatihah disebut Ummul Kitab/Ummul Quran."
+ },
+ {
+  "id": 23,
+  "question": "Kalender Hijriah dihitung sejak peristiwa…",
+  "options": [
+   "Kelahiran Nabi",
+   "Turunnya wahyu",
+   "Hijrah ke Madinah",
+   "Fathu Makkah"
+  ],
+  "answer": 2,
+  "explanation": "Kalender Hijriah dimulai dari tahun hijrah Nabi ﷺ ke Madinah, ditetapkan pada masa Umar bin Khattab."
+ },
+ {
+  "id": 24,
+  "question": "Perang besar pertama dalam sejarah Islam adalah Perang…",
+  "options": [
+   "Uhud",
+   "Badar",
+   "Khandaq",
+   "Hunain"
+  ],
+  "answer": 1,
+  "explanation": "Perang Badar terjadi pada 17 Ramadhan 2 H."
+ },
+ {
+  "id": 25,
+  "question": "Nabi yang dapat memahami bahasa hewan adalah…",
+  "options": [
+   "Nabi Sulaiman",
+   "Nabi Yunus",
+   "Nabi Isa",
+   "Nabi Yusuf"
+  ],
+  "answer": 0,
+  "explanation": "Nabi Sulaiman AS memahami bahasa burung dan semut (QS. An-Naml: 16–19)."
+ },
+ {
+  "id": 26,
+  "question": "Zakat fitrah wajib ditunaikan paling lambat…",
+  "options": [
+   "Akhir Sya'ban",
+   "Malam 27 Ramadhan",
+   "Sebelum sholat Idul Fitri",
+   "Sepekan setelah Idul Fitri"
+  ],
+  "answer": 2,
+  "explanation": "Zakat fitrah ditunaikan sebelum sholat Idul Fitri (HR. Bukhari & Muslim)."
+ },
+ {
+  "id": 27,
+  "question": "Surah yang tidak diawali basmalah adalah…",
+  "options": [
+   "Al-Fatihah",
+   "At-Taubah",
+   "An-Nas",
+   "Al-Kahfi"
+  ],
+  "answer": 1,
+  "explanation": "Surah At-Taubah tidak diawali basmalah."
+ },
+ {
+  "id": 28,
+  "question": "Malam yang lebih baik dari seribu bulan disebut…",
+  "options": [
+   "Nisfu Sya'ban",
+   "Lailatul Qadar",
+   "Malam Isra Mi'raj",
+   "Malam Arafah"
+  ],
+  "answer": 1,
+  "explanation": "QS. Al-Qadr: 3."
+ },
+ {
+  "id": 29,
+  "question": "Ayat terpanjang dalam Al-Quran adalah…",
+  "options": [
+   "Al-Baqarah: 255",
+   "Al-Baqarah: 282",
+   "Ali 'Imran: 7",
+   "An-Nisa': 11"
+  ],
+  "answer": 1,
+  "explanation": "Al-Baqarah: 282 (ayat tentang utang-piutang) adalah ayat terpanjang."
+ },
+ {
+  "id": 30,
+  "question": "Khalifah pertama setelah Rasulullah ﷺ wafat adalah…",
+  "options": [
+   "Umar bin Khattab",
+   "Ali bin Abi Thalib",
+   "Abu Bakar Ash-Shiddiq",
+   "Utsman bin Affan"
+  ],
+  "answer": 2,
+  "explanation": "Abu Bakar Ash-Shiddiq menjadi khalifah pertama."
+ },
+ {
+  "id": 31,
+  "question": "Berapa kali sujud dalam satu rakaat sholat?",
+  "options": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "answer": 1,
+  "explanation": "Setiap rakaat terdiri dari dua kali sujud."
+ },
+ {
+  "id": 32,
+  "question": "Surah terpendek dalam Al-Quran adalah…",
+  "options": [
+   "Al-Ikhlas",
+   "Al-'Asr",
+   "Al-Kautsar",
+   "An-Nasr"
+  ],
+  "answer": 2,
+  "explanation": "Al-Kautsar hanya 3 ayat pendek."
+ },
+ {
+  "id": 33,
+  "question": "Wahyu pertama turun kepada Nabi ﷺ di…",
+  "options": [
+   "Gua Tsur",
+   "Gua Hira",
+   "Masjidil Haram",
+   "Bukit Uhud"
+  ],
+  "answer": 1,
+  "explanation": "Wahyu pertama turun di Gua Hira, Jabal Nur."
+ },
+ {
+  "id": 34,
+  "question": "Gua tempat Nabi ﷺ dan Abu Bakar bersembunyi saat hijrah adalah…",
+  "options": [
+   "Gua Hira",
+   "Gua Tsur",
+   "Gua Kahfi",
+   "Gua Uhud"
+  ],
+  "answer": 1,
+  "explanation": "Mereka bersembunyi di Gua Tsur selama tiga malam (QS. At-Taubah: 40)."
+ },
+ {
+  "id": 35,
+  "question": "Nabi yang tongkatnya dapat berubah menjadi ular adalah…",
+  "options": [
+   "Nabi Harun",
+   "Nabi Musa",
+   "Nabi Ibrahim",
+   "Nabi Shaleh"
+  ],
+  "answer": 1,
+  "explanation": "Mukjizat Nabi Musa AS (QS. Thaha: 20)."
+ }
 ]

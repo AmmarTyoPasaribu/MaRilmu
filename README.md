@@ -1,68 +1,56 @@
-# MaRilmu 🌙
+# MaRilmu — Teman Ibadah Harian
 
-Portal Islami digital lengkap dengan **25+ fitur** untuk membantu ibadah sehari-hari. Dibangun dengan Next.js, TypeScript, dan desain modern responsif dengan tema hijau emerald dan mode gelap.
+Portal Islami berbahasa Indonesia dengan tema visual **"Andalusia"**: hijau zamrud, emas, dan gading dengan ornamen bintang delapan (khatam) dan bingkai mihrab. Mendukung mode terang/gelap, nyaman di desktop maupun ponsel, tanpa iklan dan tanpa akun — semua catatan pribadi tersimpan di perangkat.
 
-## ✨ Fitur
+## Fitur
 
-- **Al-Quran** — 114 surah dengan teks Arab, transliterasi Latin, dan terjemahan Indonesia
-- **Jadwal Sholat** — Waktu sholat otomatis berdasarkan lokasi + countdown
-- **Kumpulan Doa** — Doa-doa harian lengkap dengan Arab dan Latin
-- **Tasbih Digital** — Penghitung dzikir dengan 6 preset
-- **Dzikir Pagi/Sore** — Al-Ma'tsurat lengkap pagi dan sore
-- **Panduan Sholat** — 10 langkah tata cara sholat dengan bacaan
-- **Sholat Sunnah** — Panduan Dhuha, Tahajud, Rawatib, Witir, Istikharah
-- **Audio Murottal** — Dengarkan Al-Quran dari 4 qari terkenal
-- **Bacaan Populer** — Yasin, Al-Waqiah, Al-Mulk, Al-Kahfi, Ar-Rahman
-- **Ramadhan Mode** — Countdown imsak & buka puasa + doa
-- **Hadits Harian** — 15 hadits shahih + random + salin
-- **Asmaul Husna** — 99 Nama Allah SWT
-- **Kisah 25 Nabi** — Kisah lengkap 25 Nabi dan Rasul dengan hikmah
-- **Artikel Islami** — Artikel tentang ibadah, akhlak, adab, dan muamalah
-- **Quiz Islami** — 15 soal trivia Islam + skor + penjelasan
-- **Kalender Hijriyah** — Kalender Islam dengan konversi tanggal
-- **Arah Kiblat** — Penunjuk arah kiblat berdasarkan GPS
-- **Kalkulator Zakat** — Hitung zakat penghasilan, mal, dan fitrah
-- **Hafalan Tracker** — Tracking progress hafalan Al-Quran (localStorage)
-- **Jurnal Ibadah** — Checklist ibadah harian + grafik 7 hari
-- **Infaq Tracker** — Catat infaq/sedekah + statistik bulanan
-- **Doa Harian Popup** — Doa berbeda setiap hari saat buka website
+**Utama**
+- **Al-Quran 114 surah / 30 juz** — teks Arab (rasm Kemenag), latin, terjemahan & **tafsir Kemenag**, murottal per ayat yang berlanjut otomatis dengan sorotan ayat, penanda ayat, "terakhir dibaca" otomatis, lompat ke ayat, ukuran huruf Arab
+- **Jadwal sholat** — dihitung lokal dari koordinat (kriteria Kemenag RI: Subuh −20°, Isya −18°, ihtiyat 2 menit), imsak/terbit/dhuha, hitung mundur, tabel bulanan, pengingat adzan, tautan masjid terdekat
+- **Arah kiblat** — kompas yang benar untuk Android & iOS, indikator "sudah menghadap kiblat" + getar, jarak ke Ka'bah, info Rashdul Qiblah
+- **Kalender Hijriah** — tanggal Hijriah lokal (Umm al-Qura) dengan koreksi ±hari, hari besar Islam, puasa sunnah (Senin–Kamis, Ayyamul Bidh, Arafah, Asyura), agenda mendatang, konverter Masehi ⇄ Hijriah
 
-## 🛠️ Tech Stack
+**Ibadah** — 220+ doa shahih beserta sumbernya · dzikir pagi, petang & ba'da sholat dengan penghitung · tasbih digital (rangkaian 33-33-33, rekap harian) · murottal 6 qari yang tetap diputar saat berpindah halaman · panduan sholat langkah demi langkah · 8 sholat sunnah dengan jendela waktunya hari ini · mode Ramadhan (imsakiyah, target tilawah, doa)
 
-| Layer | Teknologi |
-|-------|-----------|
-| Framework | Next.js 16 (App Router) |
-| Language | TypeScript |
-| Styling | Vanilla CSS (Custom Design System) |
-| Font | Google Fonts (Poppins, Amiri) |
-| API | Al-Quran Cloud API, Aladhan API |
-| Storage | localStorage |
-| Deployment | Vercel |
+**Belajar** — Asmaul Husna (dengan mode hafalan) · 30 hadits pilihan · kisah 25 nabi · artikel · kuis 35 soal (10 soal acak per sesi)
 
-## 🚀 Cara Menjalankan
+**Catatan & alat** — jurnal ibadah (streak, grafik 7 hari, heatmap) · hafalan 114 surah · kalkulator zakat (penghasilan, tabungan, emas, perdagangan, fitrah) · catatan sedekah · halaman tersimpan · pengaturan + cadangkan/pulihkan data
 
-```bash
-# Clone repository
-git clone https://github.com/AmmarTyoPasaribu/MaRilmu.git
+Pencarian cepat fitur & surah: **Ctrl + K**.
 
-# Install dependencies
-cd MaRilmu
-npm install
+## Teknologi
 
-# Jalankan development server
-npm run dev
+| Lapisan | Teknologi |
+|---|---|
+| Framework | Next.js 16 (App Router, ISR) + React 19 |
+| Bahasa | TypeScript |
+| Gaya | CSS murni dengan design token (`src/styles/`) |
+| Font | Plus Jakarta Sans, Marcellus, Amiri, Amiri Quran |
+| Data | [equran.id](https://equran.id) (Al-Quran, tafsir, audio & doa — Kemenag RI), OpenStreetMap Nominatim (pencarian kota) |
+| Perhitungan lokal | Jadwal sholat (algoritma astronomis), kalender Hijriah (`Intl` Umm al-Qura), arah kiblat (great-circle) |
+| Penyimpanan | `localStorage` (hanya di perangkat) |
 
-# Buka di browser
-# http://localhost:3000
+## Struktur
+
+```
+src/
+  app/              halaman (page.tsx = server, *View.tsx = komponen klien)
+  components/       Icon (set ikon SVG), layout (Shell, Footer, Logo), providers (tema, toast, pemutar audio)
+  lib/              prayer.ts, hijri.ts, qibla.ts, quran.ts, doa.ts, store.ts, site.ts
+  data/             data lokal (surah, dzikir, hadits, kuis, asmaul husna, kisah nabi, artikel)
+  styles/           tokens, base, layout, components, pages
 ```
 
-## 📱 Responsif
+Tautan profil pembuat diatur di `src/lib/site.ts` (`PROFILE_LINKS`).
 
-Website ini sepenuhnya responsif untuk semua ukuran layar:
-- **Desktop** — Sidebar navigasi tetap di kiri
-- **Tablet** — Sidebar tersembunyi, topbar dengan hamburger menu
-- **Mobile** — Layout penuh dengan sidebar slide-in
+## Menjalankan
 
-## 📄 Lisensi
+```bash
+npm install
+npm run dev      # http://localhost:3000
+npm run build && npm start
+```
 
-Dibuat oleh **Ammar Tyo Pasaribu**
+## Lisensi
+
+Dibuat oleh **Ammar Tyo Pasaribu**. Teks, terjemahan, tafsir, audio Al-Quran dan koleksi doa berasal dari equran.id (Kementerian Agama RI).

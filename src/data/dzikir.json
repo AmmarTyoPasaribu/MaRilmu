@@ -1,18 +1,295 @@
 {
-  "pagi": [
-    {"id": 1, "title": "Ayat Kursi", "arabic": "اللّٰهُ لَآ اِلٰهَ اِلَّا هُوَۚ اَلْـحَيُّ الْقَيُّوْمُ ەۚ لَا تَأْخُذُهٗ سِنَةٌ وَّلَا نَوْمٌۗ لَهٗ مَا فِى السَّمٰوٰتِ وَمَا فِى الْاَرْضِۗ", "latin": "Allahu laa ilaaha illaa Huwal Hayyul Qayyuum. Laa ta'khudzuhuu sinatuw walaa naum. Lahuu maa fis samaawaati wa maa fil ardh.", "translation": "Allah, tidak ada Tuhan selain Dia Yang Maha Hidup lagi terus menerus mengurus (makhluk-Nya).", "count": 1},
-    {"id": 2, "title": "Sayyidul Istighfar", "arabic": "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ خَلَقْتَنِي وَأَنَا عَبْدُكَ وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ", "latin": "Allaahumma anta rabbii laa ilaaha illaa anta, khalaqtanii wa anaa 'abduka, wa anaa 'ala 'ahdika wa wa'dika mastatha'tu", "translation": "Ya Allah, Engkau Tuhanku, tidak ada tuhan yang berhak disembah kecuali Engkau. Engkau telah menciptakanku dan aku hamba-Mu.", "count": 1},
-    {"id": 3, "title": "Subhanallah wa bihamdihi", "arabic": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ", "latin": "Subhanallahi wa bihamdihi", "translation": "Maha Suci Allah dan segala puji bagi-Nya.", "count": 100},
-    {"id": 4, "title": "Doa Perlindungan", "arabic": "بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ", "latin": "Bismillaahilladzi laa yadhurru ma'asmihi syai-un fil ardhi wa laa fis samaa'i wa huwas samii'ul 'aliim", "translation": "Dengan menyebut nama Allah yang tidak membahayakan bersama nama-Nya sesuatu pun di bumi dan di langit.", "count": 3},
-    {"id": 5, "title": "Subhanallah 33x", "arabic": "سُبْحَانَ اللَّهِ", "latin": "Subhanallah", "translation": "Maha Suci Allah", "count": 33},
-    {"id": 6, "title": "Alhamdulillah 33x", "arabic": "اَلْحَمْدُ لِلّٰهِ", "latin": "Alhamdulillah", "translation": "Segala Puji Bagi Allah", "count": 33},
-    {"id": 7, "title": "Allahu Akbar 33x", "arabic": "اللَّهُ أَكْبَرُ", "latin": "Allahu Akbar", "translation": "Allah Maha Besar", "count": 33}
+  "pagiPetang": [
+    {
+      "id": "kursi",
+      "title": "Ayat Kursi",
+      "ref": "kursi",
+      "count": 1,
+      "source": "HR. An-Nasa'i dalam 'Amalul Yaum wal Lailah",
+      "virtue": "Siapa membacanya di pagi hari, ia dilindungi dari gangguan jin hingga sore; dan sebaliknya."
+    },
+    {
+      "id": "ikhlas",
+      "title": "Surah Al-Ikhlas",
+      "ref": "ikhlas",
+      "count": 3,
+      "source": "HR. Abu Dawud & Tirmidzi",
+      "virtue": "Membaca Al-Ikhlas, Al-Falaq dan An-Nas tiga kali pagi dan petang mencukupimu dari segala sesuatu."
+    },
+    { "id": "falaq", "title": "Surah Al-Falaq", "ref": "falaq", "count": 3, "source": "HR. Abu Dawud & Tirmidzi" },
+    { "id": "nas", "title": "Surah An-Nas", "ref": "nas", "count": 3, "source": "HR. Abu Dawud & Tirmidzi" },
+    {
+      "id": "ashbahna",
+      "title": "Pengakuan kerajaan milik Allah",
+      "count": 1,
+      "source": "HR. Muslim",
+      "arabic": "أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلّٰهِ، وَالْحَمْدُ لِلّٰهِ، لَا إِلٰهَ إِلَّا اللّٰهُ وَحْدَهُ لَا شَرِيْكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرٌ، رَبِّ أَسْأَلُكَ خَيْرَ مَا فِيْ هٰذَا الْيَوْمِ وَخَيْرَ مَا بَعْدَهُ، وَأَعُوْذُ بِكَ مِنْ شَرِّ مَا فِيْ هٰذَا الْيَوْمِ وَشَرِّ مَا بَعْدَهُ، رَبِّ أَعُوْذُ بِكَ مِنَ الْكَسَلِ وَسُوْءِ الْكِبَرِ، رَبِّ أَعُوْذُ بِكَ مِنْ عَذَابٍ فِي النَّارِ وَعَذَابٍ فِي الْقَبْرِ",
+      "arabicSore": "أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلّٰهِ، وَالْحَمْدُ لِلّٰهِ، لَا إِلٰهَ إِلَّا اللّٰهُ وَحْدَهُ لَا شَرِيْكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرٌ، رَبِّ أَسْأَلُكَ خَيْرَ مَا فِيْ هٰذِهِ اللَّيْلَةِ وَخَيْرَ مَا بَعْدَهَا، وَأَعُوْذُ بِكَ مِنْ شَرِّ مَا فِيْ هٰذِهِ اللَّيْلَةِ وَشَرِّ مَا بَعْدَهَا، رَبِّ أَعُوْذُ بِكَ مِنَ الْكَسَلِ وَسُوْءِ الْكِبَرِ، رَبِّ أَعُوْذُ بِكَ مِنْ عَذَابٍ فِي النَّارِ وَعَذَابٍ فِي الْقَبْرِ",
+      "latin": "Ashbahnaa wa ashbahal mulku lillaah, walhamdu lillaah, laa ilaaha illallaahu wahdahu laa syariika lah, lahul mulku wa lahul hamdu wa huwa 'alaa kulli syai-in qadiir. Rabbi as-aluka khaira maa fii haadzal yaumi wa khaira maa ba'dah, wa a'uudzu bika min syarri maa fii haadzal yaumi wa syarri maa ba'dah. Rabbi a'uudzu bika minal kasali wa suu-il kibar. Rabbi a'uudzu bika min 'adzaabin fin naari wa 'adzaabin fil qabr.",
+      "latinSore": "Amsainaa wa amsal mulku lillaah, walhamdu lillaah, laa ilaaha illallaahu wahdahu laa syariika lah, lahul mulku wa lahul hamdu wa huwa 'alaa kulli syai-in qadiir. Rabbi as-aluka khaira maa fii haadzihil lailati wa khaira maa ba'dahaa, wa a'uudzu bika min syarri maa fii haadzihil lailati wa syarri maa ba'dahaa. Rabbi a'uudzu bika minal kasali wa suu-il kibar. Rabbi a'uudzu bika min 'adzaabin fin naari wa 'adzaabin fil qabr.",
+      "translation": "Kami memasuki waktu pagi dan kerajaan hanya milik Allah. Segala puji bagi Allah. Tidak ada tuhan selain Allah semata, tiada sekutu bagi-Nya. Milik-Nya kerajaan dan pujian, dan Dia Mahakuasa atas segala sesuatu. Wahai Rabbku, aku memohon kebaikan hari ini dan kebaikan sesudahnya, dan aku berlindung kepada-Mu dari keburukan hari ini dan keburukan sesudahnya. Wahai Rabbku, aku berlindung kepada-Mu dari kemalasan dan keburukan di hari tua. Wahai Rabbku, aku berlindung kepada-Mu dari siksa neraka dan siksa kubur.",
+      "translationSore": "Kami memasuki waktu petang dan kerajaan hanya milik Allah. Segala puji bagi Allah. Tidak ada tuhan selain Allah semata, tiada sekutu bagi-Nya. Milik-Nya kerajaan dan pujian, dan Dia Mahakuasa atas segala sesuatu. Wahai Rabbku, aku memohon kebaikan malam ini dan kebaikan sesudahnya, dan aku berlindung kepada-Mu dari keburukan malam ini dan keburukan sesudahnya. Wahai Rabbku, aku berlindung kepada-Mu dari kemalasan dan keburukan di hari tua. Wahai Rabbku, aku berlindung kepada-Mu dari siksa neraka dan siksa kubur."
+    },
+    {
+      "id": "bika",
+      "title": "Bersandar kepada Allah",
+      "count": 1,
+      "source": "HR. Tirmidzi",
+      "arabic": "اَللّٰهُمَّ بِكَ أَصْبَحْنَا، وَبِكَ أَمْسَيْنَا، وَبِكَ نَحْيَا، وَبِكَ نَمُوْتُ، وَإِلَيْكَ النُّشُوْرُ",
+      "arabicSore": "اَللّٰهُمَّ بِكَ أَمْسَيْنَا، وَبِكَ أَصْبَحْنَا، وَبِكَ نَحْيَا، وَبِكَ نَمُوْتُ، وَإِلَيْكَ الْمَصِيْرُ",
+      "latin": "Allaahumma bika ashbahnaa, wa bika amsainaa, wa bika nahyaa, wa bika namuutu, wa ilaikan nusyuur.",
+      "latinSore": "Allaahumma bika amsainaa, wa bika ashbahnaa, wa bika nahyaa, wa bika namuutu, wa ilaikal mashiir.",
+      "translation": "Ya Allah, dengan-Mu kami memasuki waktu pagi, dengan-Mu kami memasuki waktu petang, dengan-Mu kami hidup, dengan-Mu kami mati, dan kepada-Mu kebangkitan.",
+      "translationSore": "Ya Allah, dengan-Mu kami memasuki waktu petang, dengan-Mu kami memasuki waktu pagi, dengan-Mu kami hidup, dengan-Mu kami mati, dan kepada-Mu tempat kembali."
+    },
+    {
+      "id": "sayyidul",
+      "title": "Sayyidul Istighfar",
+      "count": 1,
+      "source": "HR. Bukhari",
+      "virtue": "Siapa membacanya dengan yakin lalu wafat pada hari/malam itu, ia termasuk penghuni surga.",
+      "arabic": "اَللّٰهُمَّ أَنْتَ رَبِّيْ لَا إِلٰهَ إِلَّا أَنْتَ، خَلَقْتَنِيْ وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوْذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوْءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوْءُ بِذَنْبِيْ فَاغْفِرْ لِيْ، فَإِنَّهُ لَا يَغْفِرُ الذُّنُوْبَ إِلَّا أَنْتَ",
+      "latin": "Allaahumma anta rabbii laa ilaaha illaa anta, khalaqtanii wa anaa 'abduka, wa anaa 'alaa 'ahdika wa wa'dika mastatha'tu, a'uudzu bika min syarri maa shana'tu, abuu-u laka bini'matika 'alayya, wa abuu-u bidzanbii faghfir lii, fa innahu laa yaghfirudz dzunuuba illaa anta.",
+      "translation": "Ya Allah, Engkau Rabbku, tidak ada tuhan selain Engkau. Engkau menciptakanku dan aku hamba-Mu. Aku berada di atas perjanjian dan janji-Mu semampuku. Aku berlindung kepada-Mu dari keburukan perbuatanku. Aku mengakui nikmat-Mu kepadaku dan aku mengakui dosaku, maka ampunilah aku. Sesungguhnya tidak ada yang mengampuni dosa selain Engkau."
+    },
+    {
+      "id": "afini",
+      "title": "Memohon kesehatan",
+      "count": 3,
+      "source": "HR. Abu Dawud",
+      "arabic": "اَللّٰهُمَّ عَافِنِيْ فِيْ بَدَنِيْ، اَللّٰهُمَّ عَافِنِيْ فِيْ سَمْعِيْ، اَللّٰهُمَّ عَافِنِيْ فِيْ بَصَرِيْ، لَا إِلٰهَ إِلَّا أَنْتَ. اَللّٰهُمَّ إِنِّيْ أَعُوْذُ بِكَ مِنَ الْكُفْرِ وَالْفَقْرِ، وَأَعُوْذُ بِكَ مِنْ عَذَابِ الْقَبْرِ، لَا إِلٰهَ إِلَّا أَنْتَ",
+      "latin": "Allaahumma 'aafinii fii badanii, allaahumma 'aafinii fii sam'ii, allaahumma 'aafinii fii basharii, laa ilaaha illaa anta. Allaahumma innii a'uudzu bika minal kufri wal faqri, wa a'uudzu bika min 'adzaabil qabri, laa ilaaha illaa anta.",
+      "translation": "Ya Allah, sehatkanlah badanku. Ya Allah, sehatkanlah pendengaranku. Ya Allah, sehatkanlah penglihatanku. Tidak ada tuhan selain Engkau. Ya Allah, aku berlindung kepada-Mu dari kekufuran dan kefakiran, dan aku berlindung kepada-Mu dari siksa kubur. Tidak ada tuhan selain Engkau."
+    },
+    {
+      "id": "afiyah",
+      "title": "Memohon ampunan & keselamatan",
+      "count": 1,
+      "source": "HR. Abu Dawud & Ibnu Majah",
+      "arabic": "اَللّٰهُمَّ إِنِّيْ أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي الدُّنْيَا وَالْآخِرَةِ، اَللّٰهُمَّ إِنِّيْ أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِيْ دِيْنِيْ وَدُنْيَايَ وَأَهْلِيْ وَمَالِيْ، اَللّٰهُمَّ اسْتُرْ عَوْرَاتِيْ وَآمِنْ رَوْعَاتِيْ، اَللّٰهُمَّ احْفَظْنِيْ مِنْ بَيْنِ يَدَيَّ وَمِنْ خَلْفِيْ، وَعَنْ يَمِيْنِيْ وَعَنْ شِمَالِيْ، وَمِنْ فَوْقِيْ، وَأَعُوْذُ بِعَظَمَتِكَ أَنْ أُغْتَالَ مِنْ تَحْتِيْ",
+      "latin": "Allaahumma innii as-alukal 'afwa wal 'aafiyata fid dunyaa wal aakhirah. Allaahumma innii as-alukal 'afwa wal 'aafiyata fii diinii wa dun-yaaya wa ahlii wa maalii. Allaahummastur 'auraatii wa aamin rau'aatii. Allaahummahfazhnii min baini yadayya wa min khalfii, wa 'an yamiinii wa 'an syimaalii, wa min fauqii, wa a'uudzu bi'azhamatika an ughtaala min tahtii.",
+      "translation": "Ya Allah, aku memohon ampunan dan keselamatan di dunia dan akhirat. Ya Allah, aku memohon ampunan dan keselamatan dalam agamaku, duniaku, keluargaku dan hartaku. Ya Allah, tutuplah auratku (aibku) dan tenteramkanlah aku dari rasa takut. Ya Allah, peliharalah aku dari depan, belakang, kanan, kiri dan atasku. Aku berlindung dengan keagungan-Mu agar tidak disambar dari bawahku."
+    },
+    {
+      "id": "alimal-ghaib",
+      "title": "Berlindung dari keburukan diri & setan",
+      "count": 1,
+      "source": "HR. Tirmidzi & Abu Dawud",
+      "arabic": "اَللّٰهُمَّ عَالِمَ الْغَيْبِ وَالشَّهَادَةِ، فَاطِرَ السَّمٰوَاتِ وَالْأَرْضِ، رَبَّ كُلِّ شَيْءٍ وَمَلِيْكَهُ، أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا أَنْتَ، أَعُوْذُ بِكَ مِنْ شَرِّ نَفْسِيْ، وَمِنْ شَرِّ الشَّيْطَانِ وَشِرْكِهِ، وَأَنْ أَقْتَرِفَ عَلَى نَفْسِيْ سُوْءًا أَوْ أَجُرَّهُ إِلَى مُسْلِمٍ",
+      "latin": "Allaahumma 'aalimal ghaibi wasy syahaadah, faathiras samaawaati wal ardh, rabba kulli syai-in wa maliikah, asyhadu an laa ilaaha illaa anta, a'uudzu bika min syarri nafsii, wa min syarrisy syaithaani wa syirkihi, wa an aqtarifa 'alaa nafsii suu-an au ajurrahu ilaa muslim.",
+      "translation": "Ya Allah, Yang Maha Mengetahui yang gaib dan yang nyata, Pencipta langit dan bumi, Rabb dan Penguasa segala sesuatu. Aku bersaksi tidak ada tuhan selain Engkau. Aku berlindung kepada-Mu dari keburukan diriku, dari keburukan setan dan ajakan syiriknya, dan dari berbuat keburukan terhadap diriku atau menimpakannya kepada seorang muslim."
+    },
+    {
+      "id": "bismillah-la-yadhurru",
+      "title": "Perlindungan dengan nama Allah",
+      "count": 3,
+      "source": "HR. Abu Dawud & Tirmidzi",
+      "virtue": "Tidak akan ada sesuatu pun yang membahayakannya.",
+      "arabic": "بِسْمِ اللّٰهِ الَّذِيْ لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ، وَهُوَ السَّمِيْعُ الْعَلِيْمُ",
+      "latin": "Bismillaahil ladzii laa yadhurru ma'asmihi syai-un fil ardhi wa laa fis samaa-i, wa huwas samii'ul 'aliim.",
+      "translation": "Dengan nama Allah yang bersama nama-Nya tidak ada sesuatu pun di bumi maupun di langit yang dapat membahayakan. Dialah Yang Maha Mendengar lagi Maha Mengetahui."
+    },
+    {
+      "id": "radhitu",
+      "title": "Ridha kepada Allah, Islam & Rasulullah ﷺ",
+      "count": 3,
+      "source": "HR. Abu Dawud & Tirmidzi",
+      "arabic": "رَضِيْتُ بِاللّٰهِ رَبًّا، وَبِالْإِسْلَامِ دِيْنًا، وَبِمُحَمَّدٍ صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ نَبِيًّا",
+      "latin": "Radhiitu billaahi rabbaa, wa bil islaami diinaa, wa bi muhammadin shallallaahu 'alaihi wa sallama nabiyyaa.",
+      "translation": "Aku ridha Allah sebagai Rabb, Islam sebagai agama, dan Muhammad ﷺ sebagai nabi."
+    },
+    {
+      "id": "ya-hayyu",
+      "title": "Memohon pertolongan Allah",
+      "count": 1,
+      "source": "HR. An-Nasa'i & Al-Hakim",
+      "arabic": "يَا حَيُّ يَا قَيُّوْمُ بِرَحْمَتِكَ أَسْتَغِيْثُ، أَصْلِحْ لِيْ شَأْنِيْ كُلَّهُ، وَلَا تَكِلْنِيْ إِلَى نَفْسِيْ طَرْفَةَ عَيْنٍ",
+      "latin": "Yaa hayyu yaa qayyuumu birahmatika astaghiits, ashlih lii sya'nii kullahu, wa laa takilnii ilaa nafsii tharfata 'ain.",
+      "translation": "Wahai Yang Maha Hidup, wahai Yang terus-menerus mengurus makhluk-Nya, dengan rahmat-Mu aku memohon pertolongan. Perbaikilah seluruh urusanku dan jangan Engkau serahkan aku kepada diriku sendiri walau sekejap mata."
+    },
+    {
+      "id": "fitrah",
+      "title": "Di atas fitrah Islam",
+      "count": 1,
+      "source": "HR. Ahmad",
+      "arabic": "أَصْبَحْنَا عَلَى فِطْرَةِ الْإِسْلَامِ، وَعَلَى كَلِمَةِ الْإِخْلَاصِ، وَعَلَى دِيْنِ نَبِيِّنَا مُحَمَّدٍ صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ، وَعَلَى مِلَّةِ أَبِيْنَا إِبْرَاهِيْمَ حَنِيْفًا مُسْلِمًا وَمَا كَانَ مِنَ الْمُشْرِكِيْنَ",
+      "arabicSore": "أَمْسَيْنَا عَلَى فِطْرَةِ الْإِسْلَامِ، وَعَلَى كَلِمَةِ الْإِخْلَاصِ، وَعَلَى دِيْنِ نَبِيِّنَا مُحَمَّدٍ صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ، وَعَلَى مِلَّةِ أَبِيْنَا إِبْرَاهِيْمَ حَنِيْفًا مُسْلِمًا وَمَا كَانَ مِنَ الْمُشْرِكِيْنَ",
+      "latin": "Ashbahnaa 'alaa fithratil islaam, wa 'alaa kalimatil ikhlaash, wa 'alaa diini nabiyyinaa muhammadin shallallaahu 'alaihi wa sallam, wa 'alaa millati abiinaa ibraahiima haniifan musliman wa maa kaana minal musyrikiin.",
+      "latinSore": "Amsainaa 'alaa fithratil islaam, wa 'alaa kalimatil ikhlaash, wa 'alaa diini nabiyyinaa muhammadin shallallaahu 'alaihi wa sallam, wa 'alaa millati abiinaa ibraahiima haniifan musliman wa maa kaana minal musyrikiin.",
+      "translation": "Kami memasuki waktu pagi di atas fitrah Islam, di atas kalimat ikhlas, di atas agama nabi kami Muhammad ﷺ, dan di atas millah bapak kami Ibrahim yang lurus lagi berserah diri, dan dia bukan termasuk orang musyrik.",
+      "translationSore": "Kami memasuki waktu petang di atas fitrah Islam, di atas kalimat ikhlas, di atas agama nabi kami Muhammad ﷺ, dan di atas millah bapak kami Ibrahim yang lurus lagi berserah diri, dan dia bukan termasuk orang musyrik."
+    },
+    {
+      "id": "adada-khalqihi",
+      "title": "Tasbih yang berat timbangannya",
+      "count": 3,
+      "only": "pagi",
+      "source": "HR. Muslim",
+      "arabic": "سُبْحَانَ اللّٰهِ وَبِحَمْدِهِ، عَدَدَ خَلْقِهِ، وَرِضَا نَفْسِهِ، وَزِنَةَ عَرْشِهِ، وَمِدَادَ كَلِمَاتِهِ",
+      "latin": "Subhaanallaahi wa bihamdih, 'adada khalqih, wa ridhaa nafsih, wa zinata 'arsyih, wa midaada kalimaatih.",
+      "translation": "Maha Suci Allah dan segala puji bagi-Nya, sebanyak jumlah makhluk-Nya, seridha diri-Nya, seberat timbangan 'Arsy-Nya, dan sebanyak tinta kalimat-Nya."
+    },
+    {
+      "id": "ilman-nafian",
+      "title": "Ilmu yang bermanfaat & rezeki yang baik",
+      "count": 1,
+      "only": "pagi",
+      "source": "HR. Ibnu Majah (setelah salam sholat Subuh)",
+      "arabic": "اَللّٰهُمَّ إِنِّيْ أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا طَيِّبًا، وَعَمَلًا مُتَقَبَّلًا",
+      "latin": "Allaahumma innii as-aluka 'ilman naafi'aa, wa rizqan thayyibaa, wa 'amalan mutaqabbalaa.",
+      "translation": "Ya Allah, aku memohon kepada-Mu ilmu yang bermanfaat, rezeki yang baik, dan amal yang diterima."
+    },
+    {
+      "id": "kalimat-tammat",
+      "title": "Berlindung dengan kalimat Allah yang sempurna",
+      "count": 3,
+      "only": "petang",
+      "source": "HR. Muslim",
+      "virtue": "Siapa membacanya di petang hari, tidak akan dimudharatkan oleh sengatan binatang berbisa malam itu.",
+      "arabic": "أَعُوْذُ بِكَلِمَاتِ اللّٰهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
+      "latin": "A'uudzu bikalimaatillaahit taammaati min syarri maa khalaq.",
+      "translation": "Aku berlindung dengan kalimat-kalimat Allah yang sempurna dari keburukan makhluk yang Dia ciptakan."
+    },
+    {
+      "id": "hasbiyallah",
+      "title": "Cukuplah Allah bagiku",
+      "count": 7,
+      "source": "HR. Abu Dawud (mauquf); QS. At-Taubah: 129",
+      "arabic": "حَسْبِيَ اللّٰهُ لَا إِلٰهَ إِلَّا هُوَ، عَلَيْهِ تَوَكَّلْتُ، وَهُوَ رَبُّ الْعَرْشِ الْعَظِيْمِ",
+      "latin": "Hasbiyallaahu laa ilaaha illaa huwa, 'alaihi tawakkaltu, wa huwa rabbul 'arsyil 'azhiim.",
+      "translation": "Cukuplah Allah bagiku, tidak ada tuhan selain Dia. Hanya kepada-Nya aku bertawakal, dan Dia adalah Rabb pemilik 'Arsy yang agung."
+    },
+    {
+      "id": "tahlil",
+      "title": "Tahlil",
+      "count": 10,
+      "source": "HR. Bukhari & Muslim; HR. An-Nasa'i",
+      "virtue": "Pahalanya seperti memerdekakan empat budak dari keturunan Ismail.",
+      "arabic": "لَا إِلٰهَ إِلَّا اللّٰهُ وَحْدَهُ لَا شَرِيْكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرٌ",
+      "latin": "Laa ilaaha illallaahu wahdahu laa syariika lah, lahul mulku wa lahul hamdu, wa huwa 'alaa kulli syai-in qadiir.",
+      "translation": "Tidak ada tuhan selain Allah semata, tiada sekutu bagi-Nya. Milik-Nya kerajaan dan pujian, dan Dia Mahakuasa atas segala sesuatu."
+    },
+    {
+      "id": "subhanallah-wabihamdihi",
+      "title": "Tasbih & tahmid",
+      "count": 100,
+      "source": "HR. Muslim",
+      "virtue": "Tidak ada yang datang pada hari kiamat dengan amalan lebih utama kecuali yang membaca seperti itu atau lebih.",
+      "arabic": "سُبْحَانَ اللّٰهِ وَبِحَمْدِهِ",
+      "latin": "Subhaanallaahi wa bihamdih.",
+      "translation": "Maha Suci Allah dan segala puji bagi-Nya."
+    },
+    {
+      "id": "istighfar",
+      "title": "Istighfar",
+      "count": 100,
+      "source": "HR. Bukhari & Muslim",
+      "arabic": "أَسْتَغْفِرُ اللّٰهَ وَأَتُوْبُ إِلَيْهِ",
+      "latin": "Astaghfirullaaha wa atuubu ilaih.",
+      "translation": "Aku memohon ampun kepada Allah dan bertaubat kepada-Nya."
+    },
+    {
+      "id": "shalawat",
+      "title": "Shalawat Nabi ﷺ",
+      "count": 10,
+      "source": "HR. Ath-Thabrani",
+      "virtue": "Siapa bershalawat pagi dan petang masing-masing sepuluh kali akan mendapat syafaat Nabi ﷺ.",
+      "arabic": "اَللّٰهُمَّ صَلِّ وَسَلِّمْ عَلَى نَبِيِّنَا مُحَمَّدٍ",
+      "latin": "Allaahumma shalli wa sallim 'alaa nabiyyinaa muhammad.",
+      "translation": "Ya Allah, limpahkanlah shalawat dan salam kepada nabi kami, Muhammad."
+    }
   ],
-  "sore": [
-    {"id": 8, "title": "Ayat Kursi", "arabic": "اللّٰهُ لَآ اِلٰهَ اِلَّا هُوَۚ اَلْـحَيُّ الْقَيُّوْمُ ەۚ لَا تَأْخُذُهٗ سِنَةٌ وَّلَا نَوْمٌۗ لَهٗ مَا فِى السَّمٰوٰتِ وَمَا فِى الْاَرْضِۗ", "latin": "Allahu laa ilaaha illaa Huwal Hayyul Qayyuum. Laa ta'khudzuhuu sinatuw walaa naum. Lahuu maa fis samaawaati wa maa fil ardh.", "translation": "Allah, tidak ada Tuhan selain Dia Yang Maha Hidup lagi terus menerus mengurus (makhluk-Nya).", "count": 1},
-    {"id": 9, "title": "Doa Petang Hari", "arabic": "أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ وَالْحَمْدُ لِلَّهِ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ", "latin": "Amsainaa wa amsal mulku lillaah, walhamdu lillaah, laa ilaaha illallaahu wahdahu laa syariika lah", "translation": "Kami telah memasuki waktu sore dan kerajaan hanya milik Allah. Segala puji bagi Allah.", "count": 1},
-    {"id": 10, "title": "Istighfar", "arabic": "أَسْتَغْفِرُ اللَّهَ", "latin": "Astaghfirullah", "translation": "Aku memohon ampun kepada Allah.", "count": 100},
-    {"id": 11, "title": "Sholawat Nabi", "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ", "latin": "Allahumma shalli 'ala Muhammad wa 'ala aali Muhammad", "translation": "Ya Allah, limpahkanlah shalawat kepada Nabi Muhammad dan keluarganya.", "count": 10},
-    {"id": 12, "title": "Tasbih", "arabic": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ سُبْحَانَ اللَّهِ الْعَظِيمِ", "latin": "Subhanallahi wa bihamdihi, Subhanallahil 'Azhiim", "translation": "Maha Suci Allah dan segala puji bagi-Nya, Maha Suci Allah Yang Maha Agung.", "count": 100}
+  "sholat": [
+    {
+      "id": "s-istighfar",
+      "title": "Istighfar",
+      "count": 3,
+      "source": "HR. Muslim",
+      "arabic": "أَسْتَغْفِرُ اللّٰهَ",
+      "latin": "Astaghfirullaah.",
+      "translation": "Aku memohon ampun kepada Allah."
+    },
+    {
+      "id": "s-salam",
+      "title": "Allahumma antas salam",
+      "count": 1,
+      "source": "HR. Muslim",
+      "arabic": "اَللّٰهُمَّ أَنْتَ السَّلَامُ، وَمِنْكَ السَّلَامُ، تَبَارَكْتَ يَا ذَا الْجَلَالِ وَالْإِكْرَامِ",
+      "latin": "Allaahumma antas salaam, wa minkas salaam, tabaarakta yaa dzal jalaali wal ikraam.",
+      "translation": "Ya Allah, Engkaulah As-Salam (Yang Maha Sejahtera), dari-Mu kesejahteraan. Maha Berkah Engkau wahai Pemilik keagungan dan kemuliaan."
+    },
+    {
+      "id": "s-tahlil",
+      "title": "Tahlil & pengakuan",
+      "count": 1,
+      "source": "HR. Bukhari & Muslim",
+      "arabic": "لَا إِلٰهَ إِلَّا اللّٰهُ وَحْدَهُ لَا شَرِيْكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرٌ، اَللّٰهُمَّ لَا مَانِعَ لِمَا أَعْطَيْتَ، وَلَا مُعْطِيَ لِمَا مَنَعْتَ، وَلَا يَنْفَعُ ذَا الْجَدِّ مِنْكَ الْجَدُّ",
+      "latin": "Laa ilaaha illallaahu wahdahu laa syariika lah, lahul mulku wa lahul hamdu wa huwa 'alaa kulli syai-in qadiir. Allaahumma laa maani'a limaa a'thaita, wa laa mu'thiya limaa mana'ta, wa laa yanfa'u dzal jaddi minkal jadd.",
+      "translation": "Tidak ada tuhan selain Allah semata, tiada sekutu bagi-Nya. Milik-Nya kerajaan dan pujian, dan Dia Mahakuasa atas segala sesuatu. Ya Allah, tidak ada yang dapat menghalangi apa yang Engkau berikan, tidak ada yang dapat memberi apa yang Engkau halangi, dan kekayaan tidak bermanfaat bagi pemiliknya di hadapan-Mu."
+    },
+    {
+      "id": "s-kursi",
+      "title": "Ayat Kursi",
+      "ref": "kursi",
+      "count": 1,
+      "source": "HR. An-Nasa'i",
+      "virtue": "Tidak ada yang menghalanginya masuk surga kecuali kematian."
+    },
+    {
+      "id": "s-ikhlas",
+      "title": "Al-Ikhlas",
+      "ref": "ikhlas",
+      "count": 1,
+      "source": "HR. Abu Dawud",
+      "virtue": "Dibaca 3× setelah Subuh dan Maghrib."
+    },
+    { "id": "s-falaq", "title": "Al-Falaq", "ref": "falaq", "count": 1, "source": "HR. Abu Dawud" },
+    { "id": "s-nas", "title": "An-Nas", "ref": "nas", "count": 1, "source": "HR. Abu Dawud" },
+    {
+      "id": "s-tasbih",
+      "title": "Tasbih",
+      "count": 33,
+      "source": "HR. Muslim",
+      "virtue": "Tasbih, tahmid dan takbir 33× lalu ditutup tahlil: diampuni kesalahannya walau sebanyak buih di lautan.",
+      "arabic": "سُبْحَانَ اللّٰهِ",
+      "latin": "Subhaanallaah.",
+      "translation": "Maha Suci Allah."
+    },
+    {
+      "id": "s-tahmid",
+      "title": "Tahmid",
+      "count": 33,
+      "source": "HR. Muslim",
+      "arabic": "اَلْحَمْدُ لِلّٰهِ",
+      "latin": "Alhamdulillaah.",
+      "translation": "Segala puji bagi Allah."
+    },
+    {
+      "id": "s-takbir",
+      "title": "Takbir",
+      "count": 33,
+      "source": "HR. Muslim",
+      "arabic": "اَللّٰهُ أَكْبَرُ",
+      "latin": "Allaahu akbar.",
+      "translation": "Allah Maha Besar."
+    },
+    {
+      "id": "s-penutup",
+      "title": "Penutup (genap 100)",
+      "count": 1,
+      "source": "HR. Muslim",
+      "arabic": "لَا إِلٰهَ إِلَّا اللّٰهُ وَحْدَهُ لَا شَرِيْكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرٌ",
+      "latin": "Laa ilaaha illallaahu wahdahu laa syariika lah, lahul mulku wa lahul hamdu, wa huwa 'alaa kulli syai-in qadiir.",
+      "translation": "Tidak ada tuhan selain Allah semata, tiada sekutu bagi-Nya. Milik-Nya kerajaan dan pujian, dan Dia Mahakuasa atas segala sesuatu."
+    },
+    {
+      "id": "s-aini",
+      "title": "Memohon pertolongan untuk beribadah",
+      "count": 1,
+      "source": "HR. Abu Dawud & An-Nasa'i",
+      "arabic": "اَللّٰهُمَّ أَعِنِّيْ عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ",
+      "latin": "Allaahumma a'innii 'alaa dzikrika wa syukrika wa husni 'ibaadatik.",
+      "translation": "Ya Allah, tolonglah aku untuk mengingat-Mu, bersyukur kepada-Mu, dan beribadah kepada-Mu dengan baik."
+    }
   ]
 }

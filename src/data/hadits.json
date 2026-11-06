@@ -1,17 +1,272 @@
 [
-  {"id": 1, "narrator": "Abu Hurairah", "source": "HR. Bukhari", "arabic": "إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ", "latin": "Innamal a'maalu bin niyyaat", "translation": "Sesungguhnya setiap amalan tergantung pada niatnya.", "topic": "Niat"},
-  {"id": 2, "narrator": "Abu Hurairah", "source": "HR. Muslim", "arabic": "مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ", "latin": "Man kaana yu'minu billaahi wal yaumil aakhiri falyaqul khairan au liyasmut", "translation": "Barangsiapa beriman kepada Allah dan hari akhir, hendaklah ia berkata baik atau diam.", "topic": "Akhlak"},
-  {"id": 3, "narrator": "An-Nu'man bin Basyir", "source": "HR. Bukhari & Muslim", "arabic": "الحَلاَلُ بَيِّنٌ وَالحَرَامُ بَيِّنٌ", "latin": "Al-halaalu bayyinun wal haraamu bayyinun", "translation": "Yang halal itu jelas dan yang haram itu jelas.", "topic": "Halal & Haram"},
-  {"id": 4, "narrator": "Abu Hurairah", "source": "HR. Muslim", "arabic": "لَا تَحَاسَدُوا وَلَا تَنَاجَشُوا وَلَا تَبَاغَضُوا", "latin": "Laa tahaasaduu wa laa tanaajasyuu wa laa tabaaghaduu", "translation": "Janganlah kalian saling hasad, saling menipu, dan saling membenci.", "topic": "Akhlak"},
-  {"id": 5, "narrator": "Abu Hurairah", "source": "HR. Bukhari & Muslim", "arabic": "مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا سَهَّلَ اللَّهُ لَهُ بِهِ طَرِيقًا إِلَى الْجَنَّةِ", "latin": "Man salaka thariiqan yaltamisu fiihi 'ilman sahhalallaahu lahu bihi thariiqan ilal jannah", "translation": "Barangsiapa menempuh jalan untuk mencari ilmu, Allah mudahkan baginya jalan menuju surga.", "topic": "Ilmu"},
-  {"id": 6, "narrator": "Anas bin Malik", "source": "HR. Bukhari & Muslim", "arabic": "لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ", "latin": "Laa yu'minu ahadukum hatta yuhibba li akhiihi maa yuhibbu linafsihi", "translation": "Tidak sempurna iman seseorang sampai ia mencintai saudaranya seperti ia mencintai dirinya sendiri.", "topic": "Iman"},
-  {"id": 7, "narrator": "Abu Hurairah", "source": "HR. Muslim", "arabic": "الْمُسْلِمُ مَنْ سَلِمَ الْمُسْلِمُونَ مِنْ لِسَانِهِ وَيَدِهِ", "latin": "Al-muslimu man salimal muslimuuna min lisaanihi wa yadihi", "translation": "Muslim (yang sempurna) adalah yang kaum Muslimin selamat dari lisan dan tangannya.", "topic": "Akhlak"},
-  {"id": 8, "narrator": "Ibnu Umar", "source": "HR. Bukhari & Muslim", "arabic": "بُنِيَ الإِسْلَامُ عَلَى خَمْسٍ", "latin": "Buniyal islaamu 'ala khamsin", "translation": "Islam dibangun di atas lima perkara: Syahadat, Sholat, Zakat, Puasa, dan Haji.", "topic": "Rukun Islam"},
-  {"id": 9, "narrator": "Abu Dzar", "source": "HR. Muslim", "arabic": "اتَّقِ اللَّهَ حَيْثُمَا كُنْتَ وَأَتْبِعِ السَّيِّئَةَ الْحَسَنَةَ تَمْحُهَا وَخَالِقِ النَّاسَ بِخُلُقٍ حَسَنٍ", "latin": "Ittaqillaaha haithumaa kunta wa atbi'is sayyi-atal hasanata tamhuhaa wa khaaliqin naasa bi khuluqin hasanin", "translation": "Bertakwalah kepada Allah di mana pun engkau berada, iringilah keburukan dengan kebaikan niscaya ia menghapusnya, dan bergaullah dengan manusia dengan akhlak yang baik.", "topic": "Takwa"},
-  {"id": 10, "narrator": "Abu Hurairah", "source": "HR. Bukhari & Muslim", "arabic": "مَنْ صَامَ رَمَضَانَ إِيمَانًا وَاحْتِسَابًا غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ", "latin": "Man shaama ramadhaana iimaanan wahtisaaban ghufira lahu maa taqaddama min dzanbihi", "translation": "Barangsiapa berpuasa Ramadhan karena iman dan mengharap pahala, diampuni dosa-dosanya yang telah lalu.", "topic": "Puasa"},
-  {"id": 11, "narrator": "Abu Hurairah", "source": "HR. Bukhari", "arabic": "خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ", "latin": "Khairukum man ta'allamal Qur'aana wa 'allamahu", "translation": "Sebaik-baik kalian adalah yang mempelajari Al-Quran dan mengajarkannya.", "topic": "Al-Quran"},
-  {"id": 12, "narrator": "Abu Hurairah", "source": "HR. Muslim", "arabic": "الطُّهُورُ شَطْرُ الإِيمَانِ", "latin": "Ath-thuhuuru syathrul iimaan", "translation": "Kebersihan itu sebagian dari iman.", "topic": "Kebersihan"},
-  {"id": 13, "narrator": "Abu Hurairah", "source": "HR. Bukhari & Muslim", "arabic": "كُلُّ أُمَّتِي يَدْخُلُونَ الْجَنَّةَ إِلَّا مَنْ أَبَى", "latin": "Kullu ummatii yadkhuluunal jannata illa man abaa", "translation": "Seluruh umatku akan masuk surga kecuali yang enggan.", "topic": "Surga"},
-  {"id": 14, "narrator": "Abu Musa", "source": "HR. Bukhari & Muslim", "arabic": "الْمُؤْمِنُ لِلْمُؤْمِنِ كَالْبُنْيَانِ يَشُدُّ بَعْضُهُ بَعْضًا", "latin": "Al-mu'minu lil mu'mini kal bunyaani yasyuddu ba'dhuhu ba'dhan", "translation": "Seorang mukmin terhadap mukmin lainnya bagaikan sebuah bangunan yang saling menguatkan.", "topic": "Persaudaraan"},
-  {"id": 15, "narrator": "Ibnu Abbas", "source": "HR. Bukhari", "arabic": "نِعْمَتَانِ مَغْبُونٌ فِيهِمَا كَثِيرٌ مِنَ النَّاسِ الصِّحَّةُ وَالْفَرَاغُ", "latin": "Ni'mataani maghbuunun fiihimaa katsiiru minan naas: ash-shihhatu wal faraagh", "translation": "Dua nikmat yang banyak manusia tertipu olehnya: kesehatan dan waktu luang.", "topic": "Waktu"}
+ {
+  "id": 1,
+  "narrator": "Abu Hurairah",
+  "source": "HR. Bukhari",
+  "arabic": "إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ",
+  "latin": "Innamal a'maalu bin niyyaat",
+  "translation": "Sesungguhnya setiap amalan tergantung pada niatnya.",
+  "topic": "Niat"
+ },
+ {
+  "id": 2,
+  "narrator": "Abu Hurairah",
+  "source": "HR. Muslim",
+  "arabic": "مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ",
+  "latin": "Man kaana yu'minu billaahi wal yaumil aakhiri falyaqul khairan au liyasmut",
+  "translation": "Barangsiapa beriman kepada Allah dan hari akhir, hendaklah ia berkata baik atau diam.",
+  "topic": "Akhlak"
+ },
+ {
+  "id": 3,
+  "narrator": "An-Nu'man bin Basyir",
+  "source": "HR. Bukhari & Muslim",
+  "arabic": "الحَلاَلُ بَيِّنٌ وَالحَرَامُ بَيِّنٌ",
+  "latin": "Al-halaalu bayyinun wal haraamu bayyinun",
+  "translation": "Yang halal itu jelas dan yang haram itu jelas.",
+  "topic": "Halal & Haram"
+ },
+ {
+  "id": 4,
+  "narrator": "Abu Hurairah",
+  "source": "HR. Muslim",
+  "arabic": "لَا تَحَاسَدُوا وَلَا تَنَاجَشُوا وَلَا تَبَاغَضُوا",
+  "latin": "Laa tahaasaduu wa laa tanaajasyuu wa laa tabaaghaduu",
+  "translation": "Janganlah kalian saling hasad, saling menipu, dan saling membenci.",
+  "topic": "Akhlak"
+ },
+ {
+  "id": 5,
+  "narrator": "Abu Hurairah",
+  "source": "HR. Bukhari & Muslim",
+  "arabic": "مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا سَهَّلَ اللَّهُ لَهُ بِهِ طَرِيقًا إِلَى الْجَنَّةِ",
+  "latin": "Man salaka thariiqan yaltamisu fiihi 'ilman sahhalallaahu lahu bihi thariiqan ilal jannah",
+  "translation": "Barangsiapa menempuh jalan untuk mencari ilmu, Allah mudahkan baginya jalan menuju surga.",
+  "topic": "Ilmu"
+ },
+ {
+  "id": 6,
+  "narrator": "Anas bin Malik",
+  "source": "HR. Bukhari & Muslim",
+  "arabic": "لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ",
+  "latin": "Laa yu'minu ahadukum hatta yuhibba li akhiihi maa yuhibbu linafsihi",
+  "translation": "Tidak sempurna iman seseorang sampai ia mencintai saudaranya seperti ia mencintai dirinya sendiri.",
+  "topic": "Iman"
+ },
+ {
+  "id": 7,
+  "narrator": "Abu Hurairah",
+  "source": "HR. Muslim",
+  "arabic": "الْمُسْلِمُ مَنْ سَلِمَ الْمُسْلِمُونَ مِنْ لِسَانِهِ وَيَدِهِ",
+  "latin": "Al-muslimu man salimal muslimuuna min lisaanihi wa yadihi",
+  "translation": "Muslim (yang sempurna) adalah yang kaum Muslimin selamat dari lisan dan tangannya.",
+  "topic": "Akhlak"
+ },
+ {
+  "id": 8,
+  "narrator": "Ibnu Umar",
+  "source": "HR. Bukhari & Muslim",
+  "arabic": "بُنِيَ الإِسْلَامُ عَلَى خَمْسٍ",
+  "latin": "Buniyal islaamu 'ala khamsin",
+  "translation": "Islam dibangun di atas lima perkara: Syahadat, Sholat, Zakat, Puasa, dan Haji.",
+  "topic": "Rukun Islam"
+ },
+ {
+  "id": 9,
+  "narrator": "Abu Dzar",
+  "source": "HR. Muslim",
+  "arabic": "اتَّقِ اللَّهَ حَيْثُمَا كُنْتَ وَأَتْبِعِ السَّيِّئَةَ الْحَسَنَةَ تَمْحُهَا وَخَالِقِ النَّاسَ بِخُلُقٍ حَسَنٍ",
+  "latin": "Ittaqillaaha haithumaa kunta wa atbi'is sayyi-atal hasanata tamhuhaa wa khaaliqin naasa bi khuluqin hasanin",
+  "translation": "Bertakwalah kepada Allah di mana pun engkau berada, iringilah keburukan dengan kebaikan niscaya ia menghapusnya, dan bergaullah dengan manusia dengan akhlak yang baik.",
+  "topic": "Takwa"
+ },
+ {
+  "id": 10,
+  "narrator": "Abu Hurairah",
+  "source": "HR. Bukhari & Muslim",
+  "arabic": "مَنْ صَامَ رَمَضَانَ إِيمَانًا وَاحْتِسَابًا غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ",
+  "latin": "Man shaama ramadhaana iimaanan wahtisaaban ghufira lahu maa taqaddama min dzanbihi",
+  "translation": "Barangsiapa berpuasa Ramadhan karena iman dan mengharap pahala, diampuni dosa-dosanya yang telah lalu.",
+  "topic": "Puasa"
+ },
+ {
+  "id": 11,
+  "narrator": "Abu Hurairah",
+  "source": "HR. Bukhari",
+  "arabic": "خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ",
+  "latin": "Khairukum man ta'allamal Qur'aana wa 'allamahu",
+  "translation": "Sebaik-baik kalian adalah yang mempelajari Al-Quran dan mengajarkannya.",
+  "topic": "Al-Quran"
+ },
+ {
+  "id": 12,
+  "narrator": "Abu Hurairah",
+  "source": "HR. Muslim",
+  "arabic": "الطُّهُورُ شَطْرُ الإِيمَانِ",
+  "latin": "Ath-thuhuuru syathrul iimaan",
+  "translation": "Kebersihan itu sebagian dari iman.",
+  "topic": "Kebersihan"
+ },
+ {
+  "id": 13,
+  "narrator": "Abu Hurairah",
+  "source": "HR. Bukhari & Muslim",
+  "arabic": "كُلُّ أُمَّتِي يَدْخُلُونَ الْجَنَّةَ إِلَّا مَنْ أَبَى",
+  "latin": "Kullu ummatii yadkhuluunal jannata illa man abaa",
+  "translation": "Seluruh umatku akan masuk surga kecuali yang enggan.",
+  "topic": "Surga"
+ },
+ {
+  "id": 14,
+  "narrator": "Abu Musa",
+  "source": "HR. Bukhari & Muslim",
+  "arabic": "الْمُؤْمِنُ لِلْمُؤْمِنِ كَالْبُنْيَانِ يَشُدُّ بَعْضُهُ بَعْضًا",
+  "latin": "Al-mu'minu lil mu'mini kal bunyaani yasyuddu ba'dhuhu ba'dhan",
+  "translation": "Seorang mukmin terhadap mukmin lainnya bagaikan sebuah bangunan yang saling menguatkan.",
+  "topic": "Persaudaraan"
+ },
+ {
+  "id": 15,
+  "narrator": "Ibnu Abbas",
+  "source": "HR. Bukhari",
+  "arabic": "نِعْمَتَانِ مَغْبُونٌ فِيهِمَا كَثِيرٌ مِنَ النَّاسِ الصِّحَّةُ وَالْفَرَاغُ",
+  "latin": "Ni'mataani maghbuunun fiihimaa katsiiru minan naas: ash-shihhatu wal faraagh",
+  "translation": "Dua nikmat yang banyak manusia tertipu olehnya: kesehatan dan waktu luang.",
+  "topic": "Waktu"
+ },
+ {
+  "id": 16,
+  "narrator": "Tamim Ad-Dari",
+  "source": "HR. Muslim",
+  "arabic": "الدِّيْنُ النَّصِيْحَةُ",
+  "latin": "Ad-diinun nashiihah.",
+  "translation": "Agama itu adalah nasihat.",
+  "topic": "Nasihat"
+ },
+ {
+  "id": 17,
+  "narrator": "Abu Hurairah",
+  "source": "HR. Bukhari",
+  "arabic": "لَا تَغْضَبْ",
+  "latin": "Laa taghdhab.",
+  "translation": "Janganlah engkau marah. (Beliau mengulanginya beberapa kali)",
+  "topic": "Akhlak"
+ },
+ {
+  "id": 18,
+  "narrator": "Abu Hurairah",
+  "source": "HR. Tirmidzi",
+  "arabic": "مِنْ حُسْنِ إِسْلَامِ الْمَرْءِ تَرْكُهُ مَا لَا يَعْنِيْهِ",
+  "latin": "Min husni islaamil mar-i tarkuhu maa laa ya'niih.",
+  "translation": "Di antara tanda baiknya keislaman seseorang adalah meninggalkan hal yang tidak bermanfaat baginya.",
+  "topic": "Akhlak"
+ },
+ {
+  "id": 19,
+  "narrator": "Abu Hurairah",
+  "source": "HR. Muslim",
+  "arabic": "إِنَّ اللّٰهَ طَيِّبٌ لَا يَقْبَلُ إِلَّا طَيِّبًا",
+  "latin": "Innallaaha thayyibun laa yaqbalu illaa thayyibaa.",
+  "translation": "Sesungguhnya Allah itu baik dan tidak menerima kecuali yang baik.",
+  "topic": "Muamalah"
+ },
+ {
+  "id": 20,
+  "narrator": "Abu Hurairah",
+  "source": "HR. Bukhari & Muslim",
+  "arabic": "الْكَلِمَةُ الطَّيِّبَةُ صَدَقَةٌ",
+  "latin": "Al-kalimatuth thayyibatu shadaqah.",
+  "translation": "Perkataan yang baik adalah sedekah.",
+  "topic": "Sedekah"
+ },
+ {
+  "id": 21,
+  "narrator": "Abu Dzar",
+  "source": "HR. Tirmidzi",
+  "arabic": "تَبَسُّمُكَ فِيْ وَجْهِ أَخِيْكَ لَكَ صَدَقَةٌ",
+  "latin": "Tabassumuka fii wajhi akhiika laka shadaqah.",
+  "translation": "Senyummu di hadapan saudaramu adalah sedekah bagimu.",
+  "topic": "Sedekah"
+ },
+ {
+  "id": 22,
+  "narrator": "Aisyah",
+  "source": "HR. Bukhari & Muslim",
+  "arabic": "أَحَبُّ الْأَعْمَالِ إِلَى اللّٰهِ أَدْوَمُهَا وَإِنْ قَلَّ",
+  "latin": "Ahabbul a'maali ilallaahi adwamuhaa wa in qall.",
+  "translation": "Amalan yang paling dicintai Allah adalah yang paling rutin dikerjakan walaupun sedikit.",
+  "topic": "Ibadah"
+ },
+ {
+  "id": 23,
+  "narrator": "Ibnu Umar",
+  "source": "HR. Bukhari & Muslim",
+  "arabic": "الْحَيَاءُ مِنَ الْإِيْمَانِ",
+  "latin": "Al-hayaa-u minal iimaan.",
+  "translation": "Rasa malu adalah bagian dari iman.",
+  "topic": "Iman"
+ },
+ {
+  "id": 24,
+  "narrator": "Abu Hurairah",
+  "source": "HR. Bukhari & Muslim",
+  "arabic": "لَيْسَ الشَّدِيْدُ بِالصُّرَعَةِ، إِنَّمَا الشَّدِيْدُ الَّذِيْ يَمْلِكُ نَفْسَهُ عِنْدَ الْغَضَبِ",
+  "latin": "Laisasy syadiidu bish shura'ah, innamasy syadiidul ladzii yamliku nafsahu 'indal ghadhab.",
+  "translation": "Orang kuat bukanlah yang pandai bergulat, tetapi orang kuat adalah yang mampu menguasai dirinya ketika marah.",
+  "topic": "Akhlak"
+ },
+ {
+  "id": 25,
+  "narrator": "Abu Hurairah",
+  "source": "HR. Muslim",
+  "arabic": "إِذَا مَاتَ الْإِنْسَانُ انْقَطَعَ عَنْهُ عَمَلُهُ إِلَّا مِنْ ثَلَاثَةٍ: إِلَّا مِنْ صَدَقَةٍ جَارِيَةٍ، أَوْ عِلْمٍ يُنْتَفَعُ بِهِ، أَوْ وَلَدٍ صَالِحٍ يَدْعُوْ لَهُ",
+  "latin": "Idzaa maatal insaanu inqatha'a 'anhu 'amaluhu illaa min tsalaatsah: illaa min shadaqatin jaariyah, au 'ilmin yuntafa'u bih, au waladin shaalihin yad'uu lah.",
+  "translation": "Apabila manusia meninggal dunia, terputuslah amalnya kecuali tiga perkara: sedekah jariyah, ilmu yang bermanfaat, atau anak saleh yang mendoakannya.",
+  "topic": "Amal"
+ },
+ {
+  "id": 26,
+  "narrator": "Abdullah bin Amr",
+  "source": "HR. Abu Dawud & Tirmidzi",
+  "arabic": "الرَّاحِمُوْنَ يَرْحَمُهُمُ الرَّحْمٰنُ، ارْحَمُوْا مَنْ فِي الْأَرْضِ يَرْحَمْكُمْ مَنْ فِي السَّمَاءِ",
+  "latin": "Ar-raahimuuna yarhamuhumur rahmaan, irhamuu man fil ardhi yarhamkum man fis samaa'.",
+  "translation": "Orang-orang yang penyayang akan disayangi oleh Ar-Rahman. Sayangilah yang ada di bumi, niscaya yang di langit akan menyayangi kalian.",
+  "topic": "Akhlak"
+ },
+ {
+  "id": 27,
+  "narrator": "Abu Hurairah",
+  "source": "HR. Muslim",
+  "arabic": "مَا نَقَصَتْ صَدَقَةٌ مِنْ مَالٍ",
+  "latin": "Maa naqashat shadaqatun min maal.",
+  "translation": "Sedekah tidak akan mengurangi harta.",
+  "topic": "Sedekah"
+ },
+ {
+  "id": 28,
+  "narrator": "Abu Hurairah",
+  "source": "HR. Muslim",
+  "arabic": "إِنَّ اللّٰهَ لَا يَنْظُرُ إِلَى صُوَرِكُمْ وَأَمْوَالِكُمْ، وَلٰكِنْ يَنْظُرُ إِلَى قُلُوْبِكُمْ وَأَعْمَالِكُمْ",
+  "latin": "Innallaaha laa yanzhuru ilaa shuwarikum wa amwaalikum, wa laakin yanzhuru ilaa quluubikum wa a'maalikum.",
+  "translation": "Sesungguhnya Allah tidak melihat rupa dan harta kalian, tetapi Allah melihat hati dan amal kalian.",
+  "topic": "Niat"
+ },
+ {
+  "id": 29,
+  "narrator": "Abu Hurairah",
+  "source": "HR. Muslim",
+  "arabic": "الْمُؤْمِنُ الْقَوِيُّ خَيْرٌ وَأَحَبُّ إِلَى اللّٰهِ مِنَ الْمُؤْمِنِ الضَّعِيْفِ، وَفِيْ كُلٍّ خَيْرٌ",
+  "latin": "Al-mu'minul qawiyyu khairun wa ahabbu ilallaahi minal mu'minidh dha'iif, wa fii kullin khair.",
+  "translation": "Mukmin yang kuat lebih baik dan lebih dicintai Allah daripada mukmin yang lemah, dan pada keduanya ada kebaikan.",
+  "topic": "Iman"
+ },
+ {
+  "id": 30,
+  "narrator": "Abu Hurairah",
+  "source": "HR. Bukhari & Muslim",
+  "arabic": "مَنْ قَامَ لَيْلَةَ الْقَدْرِ إِيْمَانًا وَاحْتِسَابًا غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ",
+  "latin": "Man qaama lailatal qadri iimaanan wahtisaaban ghufira lahu maa taqaddama min dzanbih.",
+  "translation": "Barangsiapa menghidupkan malam Lailatul Qadar karena iman dan mengharap pahala, diampuni dosanya yang telah lalu.",
+  "topic": "Ibadah"
+ }
 ]
